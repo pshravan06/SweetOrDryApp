@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "sweetordry",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/shravanparvathaneni/Desktop/untitled folder 2/SweetorDry/sweetordry/amplify/backend/api/sweetordry/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
