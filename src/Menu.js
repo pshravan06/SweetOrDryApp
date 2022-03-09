@@ -63,10 +63,10 @@ const handleBodyChange = (e) =>{
   setBody(e.target.value)
 }
 
-console.log(taste);
-console.log(color);
-console.log(country);
-console.log(body);
+// console.log(taste);
+// console.log(color);
+// console.log(country);
+// console.log(body);
 
   return (
    
