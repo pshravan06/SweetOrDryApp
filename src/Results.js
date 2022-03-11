@@ -1,11 +1,20 @@
-import React from 'react'
+// import React from 'react'
+// import wines from './api/wines'
+// import ResultItem from './ResultItem'
 
-const Results = ({ wines }) => {
-  return (
-    <li>
-        {JSON.stringify(wines)}
-    </li>
-  )
-}
 
-export default Results
+
+// const Results = ({ wines}) => {
+//   return (
+//   <ul>
+//       {wines.map(wine =>(
+//         <ResultItem key={wine.id} wine={wine}/>
+//       ))}
+//     </ul>
+//   )
+// }
+
+// export default Results
+
+
+
