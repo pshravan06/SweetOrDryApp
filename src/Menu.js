@@ -1,79 +1,23 @@
 import React from 'react'
-import { useState } from 'react'
+import DropMenu from './DropMenu'
+
+const Menu = ( 
+  {tastes,handleTasteChange,
+  colors,handleColorChange, 
+  countries,handleCountryChange,
+  bodies,handleBodyChange,
+  reqType, setReqType
+  }) => {
 
 
-const Menu = () => {
-
-  // wine taste section
-  let tastes = [
-      {label: "Sweet"},
-      {label:"Semi-Sweet / Off-Dry"},
-      {label: "Dry"}
-  ]
-
-  let [taste, setTaste] = useState('Sweet or Dry')
-
-  const handleTasteChange = (e) => {
-    setTaste(e.target.value)
-  };
-
-  //wine color section
-  let colors = [
-      {label:"Red"},
-      {label:"white"}
-  ]
-
-  let [color, setColor] = useState('Red or White');
-
-  const handleColorChange = (e) =>{
-    setColor(e.target.value)
-  };
-
-//wine country section
-
-let countries = [
-  {label:"Argentina"},
-  {label:"California"},
-  {label:"Chile"},
-  {label:"France"},
-  {label:"Italy"},
-  {label:"New York"},
-  {label:"Oregon"},
-  {label:"Portugal"},
-  {label:"Spain"},
-]
-
-let [country, setCountry] = useState("From Any Country");
-
-const handleCountryChange = (e) =>{
-  setCountry(e.target.value)
-};
-
-// wine body section
-
-let bodies = [
-  {label:"Light"},
-  {label:"Medium"},
-  {label:"Full"},
-]
-
-let [body, setBody] = useState("Any Wine Body");
-
-const handleBodyChange = (e) =>{
-  setBody(e.target.value)
-}
-
-// console.log(taste);
-// console.log(color);
-// console.log(country);
-// console.log(body);
-
+    const populateDropdown=()=>{
+      {tastes.map((taste) => <option key={taste.label}>{taste.label}</option>)}  
+    }
   return (
    
 
    <>
-   <form>
-      <select onChange={handleTasteChange}>
+      {/* <select onChange={handleTasteChange}>
        <option>Sweet or Dry </option>
           {tastes.map((taste) => <option key={taste.label}>{taste.label}</option>)}  
       </select>
@@ -92,11 +36,23 @@ const handleBodyChange = (e) =>{
         <option> Any Wine Body</option>
           {bodies.map((body)=><option key={body.label}>{body.label}</option>)}
 
-      </select>
+      </select> */}
+
+      <DropMenu 
+     handleTasteChange={handleTasteChange}
+     tastes={tastes}
+     handleColorChange={handleColorChange}
+     colors={colors}
+     handleCountryChange={handleCountryChange}
+     countries={countries}
+     handleBodyChange={handleBodyChange}
+     bodies={bodies}
+     reqType={reqType}
+     setReqType={setReqType}
+      />
 
       
 
-   </form>
  </>
   )
 }

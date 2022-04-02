@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Cell = ({cellData}) => {
+const Cell = ({cellData,wine}) => {
   return (
-    <td>
-        {cellData}
+    <td >
+     {cellData}
     </td>
   )
 }
