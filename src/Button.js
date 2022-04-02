@@ -9,10 +9,11 @@ const Button = ({buttonText, color, handleClick, taste, handleColorClick,handleT
       
 
         
-        // onClick={handleTasteClick}
+        // onClick={handleTasteClick} testing
         
     >
-        {buttonText}
+
+        {buttonText}  
     </button>
     )
 }
