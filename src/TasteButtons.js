@@ -1,5 +1,5 @@
 import React from 'react'
-
+//CREATED THIS COMPONENT TO TEST DIFFERENCES
 const TasteButtons = ({buttonText, taste, handleTasteClick}) => {
   return (
 
