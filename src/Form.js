@@ -24,14 +24,14 @@ const Form = ({ handleColorChange,handleTasteChange,color,taste}) => {
     <form onSubmit={(e)=> e.preventDefault()}>
 
             <Button
-            buttonText="Red"
+            buttonText="Red Wines"
             color="red"
             handleClick={handleClick}
             
            />
               
             <Button
-            buttonText="White"
+            buttonText="White Wines"
             color="white"
             handleClick={handleClick}
 
@@ -55,7 +55,7 @@ const Form = ({ handleColorChange,handleTasteChange,color,taste}) => {
            />
           
           <TasteButtons
-          buttonText="Sweet"
+          buttonText="Sweet Wines (still working on this function)"
           taste="sweet"
           handleTasteClick={handleTasteClick}
           />
