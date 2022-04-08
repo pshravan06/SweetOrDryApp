@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SweetOrDryApp/static/css/main.2a641681.css",
+    "main.js": "/SweetOrDryApp/static/js/main.dc88ae56.js",
+    "static/js/787.284b57c6.chunk.js": "/SweetOrDryApp/static/js/787.284b57c6.chunk.js",
+    "index.html": "/SweetOrDryApp/index.html",
+    "main.2a641681.css.map": "/SweetOrDryApp/static/css/main.2a641681.css.map",
+    "main.dc88ae56.js.map": "/SweetOrDryApp/static/js/main.dc88ae56.js.map",
+    "787.284b57c6.chunk.js.map": "/SweetOrDryApp/static/js/787.284b57c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a641681.css",
+    "static/js/main.dc88ae56.js"
+  ]
+}
