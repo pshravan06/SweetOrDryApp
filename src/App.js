@@ -157,7 +157,7 @@ console.log(filterData(wines, 'white'));
 //   setCountry(e.target.value)
 // };
 
-// wine body section
+// wine body section for dropdown
 
 let bodies = [
   {label:"Light"},
